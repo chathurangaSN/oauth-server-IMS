@@ -21,7 +21,7 @@ public class UserConfiguration extends GlobalAuthenticationConfigurerAdapter  {
 			.withUser("Malith")
 			.password(passwordEncoder.encode("mali"))
 			.roles("USER")
-			.authorities("CAN_CREATE");
+			.authorities("CAN_READ");
 	}
 
 }
